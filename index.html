@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>simple Log In page</title>
+</head>
+<body>
+    <div class="container" >
+       
+        <div class="form-side ">
+                <div class="jumbotron" id="jumbo">
+                    <img src="undraw_sign_in_e6hj.png" alt=""   >
+                </div>
+                <form action="" name="myForm" onsubmit="return more()">
+                    <div class="form-group">
+                        <label for="name" >Enter E-mail:</label>
+                        <input type="email" name="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Enter Password:</label>
+                        <input type="password" name="password" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <p id="message" style="color: red;"></p>
+                        <div class="row">
+                            <input type="submit" name="submit" id="button" class="btn btn-default" value="Log In"class="form-control">
+                        </div>
+                    </div>
+                </form>
+        </div>
+           
+        
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
